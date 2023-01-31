@@ -1,0 +1,24 @@
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.exe.config
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.exe
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.pdb
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.xml
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbprojAssemblyReference.cache
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.Form1.resources
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.Resources.resources
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbproj.GenerateResource.cache
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbproj.CoreCompileInputs.cache
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.exe
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.xml
+D:\FIME\8 semestre\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.pdb
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.exe.config
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.exe
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.pdb
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\bin\Debug\DistanciaPuntos.xml
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbprojAssemblyReference.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.Form1.resources
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.Resources.resources
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbproj.GenerateResource.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.vbproj.CoreCompileInputs.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.exe
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.xml
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntos\obj\Debug\DistanciaPuntos.pdb

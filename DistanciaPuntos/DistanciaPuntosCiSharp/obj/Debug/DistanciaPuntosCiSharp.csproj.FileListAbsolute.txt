@@ -1,0 +1,10 @@
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\bin\Debug\DistanciaPuntosCiSharp.exe.config
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\bin\Debug\DistanciaPuntosCiSharp.exe
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\bin\Debug\DistanciaPuntosCiSharp.pdb
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.csprojAssemblyReference.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.Form1.resources
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.Properties.Resources.resources
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.csproj.GenerateResource.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.csproj.CoreCompileInputs.cache
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.exe
+C:\Users\52866\Desktop\DistanciaPuntos\DistanciaPuntosCiSharp\obj\Debug\DistanciaPuntosCiSharp.pdb
