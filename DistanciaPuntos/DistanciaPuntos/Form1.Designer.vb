@@ -34,11 +34,12 @@ Partial Class Form1
         Me.Lbl_Punto2 = New System.Windows.Forms.Label()
         Me.Lbl_Punto1 = New System.Windows.Forms.Label()
         Me.Lbl_Titulo = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.tbZ2 = New System.Windows.Forms.TextBox()
+        Me.tbZ1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Lbl_y
@@ -91,7 +92,7 @@ Partial Class Form1
         '
         Me.tbResultado.Enabled = False
         Me.tbResultado.Font = New System.Drawing.Font("Verdana", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbResultado.Location = New System.Drawing.Point(179, 220)
+        Me.tbResultado.Location = New System.Drawing.Point(184, 188)
         Me.tbResultado.Name = "tbResultado"
         Me.tbResultado.Size = New System.Drawing.Size(71, 20)
         Me.tbResultado.TabIndex = 29
@@ -107,7 +108,7 @@ Partial Class Form1
         'btnCalcular
         '
         Me.btnCalcular.Font = New System.Drawing.Font("Verdana", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCalcular.Location = New System.Drawing.Point(219, 162)
+        Me.btnCalcular.Location = New System.Drawing.Point(284, 188)
         Me.btnCalcular.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(71, 27)
@@ -119,7 +120,7 @@ Partial Class Form1
         '
         Me.Lbl_Resultado.AutoSize = True
         Me.Lbl_Resultado.Font = New System.Drawing.Font("Verdana", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Resultado.Location = New System.Drawing.Point(85, 222)
+        Me.Lbl_Resultado.Location = New System.Drawing.Point(104, 191)
         Me.Lbl_Resultado.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Lbl_Resultado.Name = "Lbl_Resultado"
         Me.Lbl_Resultado.Size = New System.Drawing.Size(75, 13)
@@ -152,34 +153,12 @@ Partial Class Form1
         '
         Me.Lbl_Titulo.AutoSize = True
         Me.Lbl_Titulo.Font = New System.Drawing.Font("Verdana", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Titulo.Location = New System.Drawing.Point(64, 0)
+        Me.Lbl_Titulo.Location = New System.Drawing.Point(100, 0)
         Me.Lbl_Titulo.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Lbl_Titulo.Name = "Lbl_Titulo"
         Me.Lbl_Titulo.Size = New System.Drawing.Size(225, 17)
         Me.Lbl_Titulo.TabIndex = 23
         Me.Lbl_Titulo.Text = "DISTANCIA ENTRE PUNTOS"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label1.Location = New System.Drawing.Point(241, 100)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(15, 13)
-        Me.Label1.TabIndex = 36
-        Me.Label1.Text = "Y"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label2.Location = New System.Drawing.Point(145, 100)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(15, 13)
-        Me.Label2.TabIndex = 37
-        Me.Label2.Text = "X"
         '
         'Panel1
         '
@@ -187,16 +166,16 @@ Partial Class Form1
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(65, 16)
+        Me.Panel1.Size = New System.Drawing.Size(95, 17)
         Me.Panel1.TabIndex = 38
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Panel2.Location = New System.Drawing.Point(284, 0)
+        Me.Panel2.Location = New System.Drawing.Point(329, 1)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(55, 16)
+        Me.Panel2.Size = New System.Drawing.Size(85, 16)
         Me.Panel2.TabIndex = 39
         '
         'Panel3
@@ -205,19 +184,47 @@ Partial Class Form1
         Me.Panel3.Location = New System.Drawing.Point(1, 253)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(338, 16)
+        Me.Panel3.Size = New System.Drawing.Size(413, 16)
         Me.Panel3.TabIndex = 39
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.Label4.Location = New System.Drawing.Point(340, 53)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(15, 13)
+        Me.Label4.TabIndex = 42
+        Me.Label4.Text = "Z"
+        '
+        'tbZ2
+        '
+        Me.tbZ2.Font = New System.Drawing.Font("Verdana", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbZ2.Location = New System.Drawing.Point(318, 119)
+        Me.tbZ2.Name = "tbZ2"
+        Me.tbZ2.Size = New System.Drawing.Size(71, 20)
+        Me.tbZ2.TabIndex = 41
+        '
+        'tbZ1
+        '
+        Me.tbZ1.Font = New System.Drawing.Font("Verdana", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbZ1.Location = New System.Drawing.Point(318, 71)
+        Me.tbZ1.Name = "tbZ1"
+        Me.tbZ1.Size = New System.Drawing.Size(71, 20)
+        Me.tbZ1.TabIndex = 40
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(340, 264)
+        Me.ClientSize = New System.Drawing.Size(414, 264)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.tbZ2)
+        Me.Controls.Add(Me.tbZ1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Lbl_y)
         Me.Controls.Add(Me.tbY2)
         Me.Controls.Add(Me.Lbl_x)
@@ -250,9 +257,10 @@ Partial Class Form1
     Friend WithEvents Lbl_Punto2 As Label
     Friend WithEvents Lbl_Punto1 As Label
     Friend WithEvents Lbl_Titulo As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents tbZ2 As TextBox
+    Friend WithEvents tbZ1 As TextBox
 End Class

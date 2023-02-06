@@ -1,22 +1,25 @@
 ﻿Public Class Punto
-    Private _x As Double
-    Private _y As Double
+    Protected _x As Decimal
 
-    Protected Property X As Double
+    Public Property x() As Decimal
         Get
             Return _x
         End Get
-        Set(value As Double)
+        Set(value As Decimal)
             _x = value
         End Set
     End Property
 
-    Protected Property Y As Double
-        Get
-            Return _y
-        End Get
-        Set(value As Double)
-            _y = value
-        End Set
-    End Property
+    Public Sub New()
+        _x = 0
+    End Sub
+
+    Public Sub New(x As Decimal)
+        _x = x
+    End Sub
+
+    Public Function CalcularDistancia(a As Punto)
+        Return Math.Abs(_x - a.x)
+    End Function
+
 End Class
